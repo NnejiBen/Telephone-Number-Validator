@@ -1,0 +1,122 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --light: white;
+    --dark: #000000;
+    --grey: #3B3B4F;
+    --dark-grey: #0a0a23;
+    --yellow: #FFB73B;
+    --orange: #bb7712;
+    --gold: #4D3800;
+    --blue: #198EEE;
+}
+
+body {
+    background-color: var(--grey);
+    padding: 2rem;
+}
+
+h1, h2, h3 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+p {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.logo {
+    max-width: 300px;
+    margin: 0 auto;
+    margin-bottom: 2rem;
+}
+
+.logo img {
+    width: 100%;
+    height: auto;
+}
+
+main {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.heading {
+    text-align: center;
+    color: white;
+    margin-bottom: 2rem;
+}
+
+.validator-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--dark);
+    padding: 1rem;
+    border-radius: 16px;
+    max-width: 296px;
+    margin: 0 auto;
+
+}
+
+.dot {
+    width: 10px;
+    height: 10px;
+    background-color: var(--light);
+    border-radius: 50%;
+    margin-bottom: 1rem;
+}
+
+.text-area {
+    background-color: #DFDFE2;
+    width: 100%;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.instruction {
+    font-size: 1.2rem;
+}
+
+.phone-number-input {
+    width: 100%;
+    padding: 1rem 2rem;
+    font-size: 1.2rem;
+    border: 1px solid var(--grey);
+    border-radius: 8px;
+}
+
+.result {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1.3rem;
+    color: var(--gold);
+    height: 265px;
+}
+
+.buttons-container {
+    display: flex;
+    gap: 1rem;
+    padding: .5rem 1rem;
+    width: 100%;
+}
+
+.buttons-container button {
+    width: 100%;
+    padding: .5rem;
+    font-size: 1.2rem;
+    cursor: pointer;
+    color: #0a0a23;
+    background-color: var(--light);
+    background-image: linear-gradient(#ffffff, #928d86);
+    border-width: 3px;
+    border-color: white;
+    /* border: 3px solid var(--light); */
+}
