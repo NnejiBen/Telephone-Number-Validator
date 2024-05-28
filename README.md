@@ -6,7 +6,7 @@ FreeCodeCamp's JavaScript course project to build a telephone number validator.
 This is one of the required projects (the third) to earn my certification. I built this project using the User Stories provided by freeCodeCamp.
 
 ## Link to live site:
-
+https://nnejiben.github.io/Telephone-Number-Validator/
 
 ## Other Information:
 
