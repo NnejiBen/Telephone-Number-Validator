@@ -113,9 +113,9 @@ main {
 
 .result {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     color: var(--gold);
-    height: 265px;
+    min-height: 265px;
 }
 
 .buttons-container {
